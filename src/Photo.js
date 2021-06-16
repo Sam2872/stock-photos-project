@@ -7,7 +7,6 @@ const Photo = ({urls:{regular},
     likes,
      user:{
          name,
-         portfolio_url,
          profile_image:{medium}
      } }) => {
     return (
@@ -20,9 +19,9 @@ const Photo = ({urls:{regular},
                    <h4>{name}</h4>
                    <p>{likes}</p>
                </div>
-               <a href={portfolio_url}>
+               <div className='prof'>
                   <img src ={medium} alt={alt_description} className="prof-img"/>
-               </a>
+               </div>
              </div>
         </article>
         </Link>

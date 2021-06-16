@@ -24,8 +24,8 @@ const PhotoDetails = () => {
             {details.map((person)=>{
                 const {likes,
                 urls:{large,small},
-                description,user:{username,portfolio_url},
-                profile_image, alt_description}= person
+                user:{username,portfolio_url},
+                alt_description}= person
                 return(
                   <main className='pic-details col-md-11'>
                      <section className='detail-box col-md-6'>

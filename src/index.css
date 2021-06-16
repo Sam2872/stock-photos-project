@@ -62,7 +62,7 @@ h2{
     background-color: rgb(0, 0, 0, 0.4);
     position: absolute;
     color: white;
-    width: 94%;
+    width: 92%;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -70,6 +70,7 @@ h2{
     transform: translateY(0%);
     transition: all 0.3s linear;
     border-radius: 0px 0px 25px 25px;
+    overflow: hidden;
   }
   .photo:hover{
     cursor: pointer;
@@ -111,20 +112,7 @@ h2{
  }
  header{
    display: flex;
+   flex-direction: column;
    justify-content:space-evenly;
    align-items: center;
- }
- .contact>a {
-  margin-top: 10px;
-  padding:15px;
-  font-size:2em;
-  color: #6c7272;
-  border: none;
- }
- .contact >a:hover{
-   border-bottom: 2px solid #ffc4ff;
- 
- }
- a{
-   text-decoration: none;
  }

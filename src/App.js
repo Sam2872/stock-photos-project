@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import  {AiOutlineSearch} from 'react-icons/ai'
 import Photo from './Photo'
 import Logo from './Logo'
-import Contact from './Contact.js'
 
 // UNSPLASH ID : https://api.unsplash.com/photos/?client_id=DTSqcZDwgbEPL9gGwIt8ppzUFEZLMFwsQZVHV80q6IA
 
@@ -82,7 +81,6 @@ import Contact from './Contact.js'
         <input type='text' className='search-input' placeholder='Search for anything' value={search} onChange={(e)=>setSearch(e.target.value)}/>
         </div>
       </form>
-          <Contact/>
         </header>
       
         <section>
