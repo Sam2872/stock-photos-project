@@ -61,7 +61,7 @@ import Logo from './Logo'
     })
     return () => window.removeEventListener('scroll', event)
     // eslint-disable-next-line 
-  },[])
+  },[search])
   const handleSubmit = (e) =>{
      e.preventDefault();;
      setPage(()=>1)

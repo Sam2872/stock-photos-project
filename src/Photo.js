@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 const Photo = ({urls:{regular},
      alt_description,
@@ -10,7 +9,6 @@ const Photo = ({urls:{regular},
          profile_image:{medium}
      } }) => {
     return (
-        <Link to={`/details/${id}`}>
           
         <article className='col-md-4 photo '>
             <img src={regular} alt={alt_description}/> 
@@ -24,7 +22,6 @@ const Photo = ({urls:{regular},
                </div>
              </div>
         </article>
-        </Link>
         
     )
 }
